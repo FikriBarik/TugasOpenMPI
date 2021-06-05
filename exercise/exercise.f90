@@ -14,6 +14,7 @@ program exercise
 
   call random_number(x)
   x=x*3-0.5
+  #[-0.5,2.5], x*(2.5-(-0.5))+(-0.5)
   y(1)=f(x)
   y(2)=process_rank
   call MPI_ALLREDUCE(y, argmin_y, 1, MPI_2DOUBLE_PRECISION, MPI_MINLOC, MPI_COMM_WORLD, ierror)
