@@ -23,8 +23,8 @@ program assignment
                 xmin=x
                 print*, "x minimum iterasi ke-",i,"adalah",xmin,"dengan f(x)=",f(x),"dari process",process_rank
         endif
-        x=x+(0.05*(xmin-x))
         call MPI_BARRIER(MPI_COMM_WORLD,ierror)
+        x=x+(0.05*(xmin-x))
   enddo
   IF (process_rank .EQ. int(argmin_y(2))) THEN
     print *, argmin_y(1),"nilai akhir terkecil dari process rank", process_rank, "dengan nilai x=",x
