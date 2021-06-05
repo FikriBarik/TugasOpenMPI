@@ -19,11 +19,11 @@ program assignment
   do i=1,20
         y(1)=f(x)
         call MPI_ALLREDUCE(y, argmin_y, 1, MPI_2DOUBLE_PRECISION, MPI_MINLOC, MPI_COMM_WORLD, ierror)
-        x=x+(0.05*(xmin-x))
         if(process_rank.EQ.int(argmin_y(2))) then
                 xmin=x
                 print*, "x minimum iterasi ke-",i,"adalah",xmin,"dengan f(x)=",f(x),"dari process",process_rank
         endif
+        x=x+(0.05*(xmin-x))
         call MPI_BARRIER(MPI_COMM_WORLD,ierror)
   enddo
   IF (process_rank .EQ. int(argmin_y(2))) THEN
