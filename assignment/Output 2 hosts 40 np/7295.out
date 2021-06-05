@@ -1,0 +1,25 @@
+komputasi03
+m442576
+rm -rf functions assignment
+mpifort -g -ffpe-trap=zero,invalid,overflow,underflow -Wall -Werror functions.f90 assignment.f90 -o assignment
+ x minimum iterasi ke-           1 adalah  0.15780776882501346      dengan f(x)=  -2.1489558484002993      dari process           2
+ x minimum iterasi ke-           2 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           3 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           4 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           5 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           6 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           7 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           8 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-           9 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          10 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          11 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          12 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          13 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          14 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          15 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          16 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          17 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          18 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          19 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+ x minimum iterasi ke-          20 adalah  0.15780776882501346      dengan f(x)=  -2.5704837636567932      dari process           2
+  -2.5704837636567932      nilai akhir terkecil dari process rank           2 dengan nilai x=  0.15780776882501346     
