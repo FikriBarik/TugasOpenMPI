@@ -11,5 +11,5 @@ hostname -s;
 whoami;
 
 make clean; make all;
-#mpirun --report-bindings --oversubscribe --bind-to hwthread -npernode 20 assignment
+#mpirun --report-bindings --oversubscribe --bind-to hwthread -np 20 assignment
 mpirun --hostfile hosts --report-bindings --oversubscribe --bind-to hwthread -npernode 20 assignment
